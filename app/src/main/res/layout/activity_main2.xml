@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.boby.activity.Main2Activity">
+    <com.xyz.xswitch.XyzSwitch
+        android:id="@+id/xswitch"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        app:xChangedTime="100"
+        app:xIconHeight="40dp"
+        app:xIconWidth="40dp"
+        app:xLeftIcon="@mipmap/lady"
+        app:xRadian="40dp"
+        app:xRightIcon="@mipmap/man"/>
+</android.support.constraint.ConstraintLayout>
